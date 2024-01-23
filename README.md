@@ -9,9 +9,12 @@ When the operation input is 1, the program apply a form of recursive region colo
 The image will contain black pixels (0 grayscale value) that separate regions. The pixels in a region will contain different grayscale values. The task is to find the average grayscale value of all the pixels in each region and color that entire region to that region's average grayscale value. This needs to be done for all regions in a given image.
 An example of what is expected is provided below:
 Example Image:
+
+
 ![image](https://github.com/kerembozkurt2002/Image_Convolution/assets/157289283/659da08e-939f-4274-9d97-acfb52b86a84)
 
 Colored Image:
+
 ![image](https://github.com/kerembozkurt2002/Image_Convolution/assets/157289283/5b62a272-26d9-45dd-a9d4-f35c95772f48)
 
 
