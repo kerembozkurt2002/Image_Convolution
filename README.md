@@ -3,11 +3,13 @@
 In this project, the program is able to make certain calculations on pixels of images recursively.
 The program accepts the PPM and PGM image formats for reading image files. 
 
-# First Operation:
+* First Operation:
 The program use PGM files for this operation. In PGM files, images are represented with pixels that have a single value which represents the gray levels. This information can be represented as nested lists, where there is a single channel.
 When the operation input is 1, the program apply a form of recursive region coloring to the image.
 The image will contain black pixels (0 grayscale value) that separate regions. The pixels in a region will contain different grayscale values. The task is to find the average grayscale value of all the pixels in each region and color that entire region to that region's average grayscale value. This needs to be done for all regions in a given image.
 An example of what is expected is provided below:
+
+
 Example Image:
 
 
