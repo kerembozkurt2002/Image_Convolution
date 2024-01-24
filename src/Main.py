@@ -2,7 +2,6 @@
 # On PPM and PGM formats see http://paulbourke.net/dataformats/ppm/
 # On convolution operation see https://youtu.be/KiftWz544_8
 # To view .pgm and .ppm files, you can use IrfanView, see https://www.irfanview.com/
-# To check whether your outputs are the same as ours, you can use the same techniques as in Homework 2, or you can write your own code.
 
 filename = input()
 operation = int(input())
